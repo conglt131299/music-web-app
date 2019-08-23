@@ -1,0 +1,43 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 17, 2019, 2:03:08 PM
+    Author     : Cong Le
+*/
+
+#myUL {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  #myUL li {
+      display: none;
+  }
+
+  #myUL li a {
+    border: 1px solid #ddd;
+    margin-top: -1px; /* Prevent double borders */
+    background-color: #f6f6f6;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block
+  }
+
+  #myUL li a:hover:not(.header) {
+    background-color: #eee;
+  }
+
+  .search_result {
+      position: absolute;
+      top: 58px;
+      left: inherit;
+      z-index: 1;
+      width: 466px;
+      opacity: 0.9;
+  }

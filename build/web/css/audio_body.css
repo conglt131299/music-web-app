@@ -1,0 +1,65 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 14, 2019, 2:32:28 AM
+    Author     : Cong Le
+*/
+
+/*Left Content*/
+.container {
+	margin-top: 20px;
+}
+
+iframe {
+	margin-bottom: 10px;
+}
+
+button {
+	border-radius: 10px;
+	background-color: green;
+	border: 1px solid green;
+	color: white;
+	outline: none;
+	cursor: pointer;
+}
+
+#viewCount {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.jumbotron {
+	margin-top: 10px;
+}
+
+/*Right Content*/
+
+.container .col-4 ul {
+	list-style-type: none;
+	margin: auto;
+	padding: 0;
+	width: 280px;
+}
+
+.container .col-4 .row {
+	width: inherit;
+	margin-top: 20px;
+	border-bottom: 1px solid grey;
+}
+
+.container .col-4 .row .col-2, .col-10 {
+	margin: 0;
+	padding: 0;
+}
+
+.container .col-4 .row .col-10 {
+	padding-left: 10px;
+}
+
+.row a {
+	text-decoration: none;
+	color: black;
+}

@@ -1,0 +1,45 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 19, 2019, 1:57:13 PM
+    Author     : Cong Le
+*/
+
+.container {
+    height: 550px;
+}
+
+.container h1 {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#chart_table {
+    margin: auto;
+    width: 80%;
+}
+
+#chart_table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#chart_table .rank {
+    width: 10%;
+}
+
+#chart_table .view {
+    width: 15%;
+}
+
+#chart_table th, td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#chart_table tr:nth-child(even){background-color: #f2f2f2;}
+
+#chart_table tr:hover {background-color: #ddd;}

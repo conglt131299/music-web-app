@@ -1,0 +1,33 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 13, 2019, 7:11:17 PM
+    Author     : Cong Le
+*/
+
+/*Footer*/
+.footer {
+	background-color: grey;
+	height: 350px;
+	color: white;
+}
+
+.footer .row {
+	position: relative;
+	top: 30px;
+}
+
+.footer .col-2 .logo_footer {
+	display: block;
+	position: relative;
+	top: 60px;
+	left: 110px;
+	margin-top: 20px;
+}
+
+.footer .col-2 .logo_download {
+	margin-left: 35px;
+}
