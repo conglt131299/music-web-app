@@ -1,0 +1,1 @@
+Permit to commit to remote repository.
