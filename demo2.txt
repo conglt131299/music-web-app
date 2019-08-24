@@ -1,1 +1,0 @@
-Permit to commit to remote repository. My name is Cong
