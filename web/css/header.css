@@ -10,52 +10,52 @@ and open the template in the editor.
 
 /*Navigation*/
 header {
-	height: 57px;
-	position: relative;
-	z-index: 1;
+    height: 57px;
+    position: relative;
+    z-index: 1;
 }
 
 nav .dropdown:hover > .dropdown-menu {
-	display: block;
+    display: block;
 }
 
 nav {
-	background-color: #323232;
-	opacity: 0.9;
+    background-color: #323232;
+    opacity: 0.9;
 }
 
 nav .nav-link {
-	color: white;
+    color: white;
 }
 
 nav .nav-link:hover {
-	color: green;
+    color: green;
 }
 
 nav .dropdown-menu {
-	background-color: red;
-	opacity: 0.9;
+    background-color: red;
+    opacity: 0.9;
 }
 
 nav .dropdown-item {
-	color: white;
+    color: white;
 }
 
 nav .dropdown-item:hover {
-	background-color: green;
+    background-color: green;
 }
 
 nav input[type="button"] {
-	background-color: red;
-	color: white;
-	border: none;
-	cursor: pointer;
-	width: 80px;
-	text-align: center;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 80px;
+    text-align: center;
 }
 
 nav input[type="text"] {
-	border: none;
+    border: none;
 }
 
 

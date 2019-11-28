@@ -15,18 +15,18 @@
         <%
             BaseAuthenticationController bac = new BaseAuthenticationController();
             boolean loginResult = bac.isAutheticated(request);
-            
+
             String contextRelativePath = "";
             String queryString = request.getQueryString();
-            if(queryString != null){
+            if (queryString != null) {
                 contextRelativePath += "?" + queryString;
             }
         %>
-                    <!-- Header of homepage-->
+        <!-- Header of homepage-->
         <header>
             <!-- Navigation -->
             <nav class="navbar navbar-expand-sm justify-content-center">
-                    <ul class="navbar-nav">
+                <ul class="navbar-nav">
                     <li class="nav-item pr-2"><a class="nav-link navbar-brand" href="/MusicWeb/home"><img src="img/logo_keeng.png" /></a></li>
                     <li class="nav-item pr-2 dropdown"><a class="nav-link" data-toggle="dropdown" href="#">PHIM</a>
                         <div class="dropdown-menu">
@@ -53,13 +53,13 @@
                             <input type="button" value="Tìm kiếm"/>
                         </form>
                     </li>
-                    
-                    <%if(loginResult) {%>
-                        <c:set var="loginResult" value="${true}" />
+
+                    <%if (loginResult) {%>
+                    <c:set var="loginResult" value="${true}" />
                     <%} else {%>
-                        <c:set var="loginResult" value="${false}" />
+                    <c:set var="loginResult" value="${false}" />
                     <%}%>
-                    
+
                     <c:choose>
                         <c:when test="${loginResult}">
                             <li class="nav-item pr-2 dropdown"><a class="nav-link" data-toggle="dropdown" href="#">${sessionScope["user"].name}</a>
@@ -75,13 +75,13 @@
                             <li class="nav-item pr-2"><a class="nav-link" href="/MusicWeb/signup">Đăng ký</a></li>
                             <li class="nav-item"><a class="nav-link" href="/MusicWeb/login?from=${requestScope['javax.servlet.forward.servlet_path']}<%=(contextRelativePath)%>">Đăng nhập</a></li>
                             <li class="nav-item mt-1"><img src="img/keeng_ver5_02.png" /></li>
-                        </c:otherwise>
-                    </c:choose>
-                    
+                            </c:otherwise>
+                        </c:choose>
+
                 </ul>  	
             </nav>
         </header>
-                    
-        
+
+
     </body>
 </html>

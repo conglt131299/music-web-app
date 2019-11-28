@@ -11,7 +11,7 @@
         <!-- Footer of homepage-->
         <div class="footer">
             <div class="row">
-                    <div class="col-2">
+                <div class="col-2">
                     <img class="logo_footer" src="http://vip.img.cdn.keeng.vn/web_v5//images/logo_keeng_footer.png" width="99px" height="30px" />
                     <img class="logo_footer" src="http://vip.img.cdn.keeng.vn/web_v5//images/gov-dathongbao.png" width="115px" height="43px" />
                 </div>

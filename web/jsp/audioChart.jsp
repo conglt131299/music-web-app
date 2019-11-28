@@ -13,27 +13,28 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Audio Chart</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="css/header.css" />
         <link rel="stylesheet" href="css/footer.css" />
         <link rel="stylesheet" href="css/audioChart.css" />
-        
+
         <script>
-            $(document).ready(function(){
-                $(".page-item").click(function(){
+            $(document).ready(function () {
+                $(".page-item").click(function () {
                     $(".page-item").removeClass("active");
                     $(this).addClass("active");
                     var value = $(this).text();
-                    $.get("jsp/audioChartPagination.jsp", {pageNumber:value}, function(data){
-                     $("#audioChart").html(data);
+                    $.get("jsp/audioChartPagination.jsp", {pageNumber: value}, function (data) {
+                        $("#audioChart").html(data);
                     });
                 });
             });
         </script>
     </head>
+    
     <body>
         <%
             int pageindex = (Integer) request.getAttribute("pageindex");
@@ -42,7 +43,7 @@
         <jsp:directive.include file="header.jsp" />
 
         <div class="container">
-            
+
             <h1>Bảng xếp hạng</h1><br/>
             <div id="audioChart">
                 <table id="chart_table" border="0">
@@ -64,13 +65,13 @@
                     </c:forEach>
                 </table>
             </div>
-            
-                <br/>
+
+            <br/>
             <ul class="pagination justify-content-center">
-                <%=HtmlHelper.pager(pageindex, 3, totalpage) %>
+                <%=HtmlHelper.pager(pageindex, 3, totalpage)%>
             </ul>   
         </div>
-        
+
         <jsp:directive.include file="footer.jsp" />
     </body>
 </html>

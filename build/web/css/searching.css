@@ -12,13 +12,13 @@ and open the template in the editor.
     list-style-type: none;
     padding: 0;
     margin: 0;
-  }
+}
 
-  #myUL li {
-      display: none;
-  }
+#myUL li {
+    display: none;
+}
 
-  #myUL li a {
+#myUL li a {
     border: 1px solid #ddd;
     margin-top: -1px; /* Prevent double borders */
     background-color: #f6f6f6;
@@ -27,17 +27,17 @@ and open the template in the editor.
     font-size: 18px;
     color: black;
     display: block
-  }
+}
 
-  #myUL li a:hover:not(.header) {
+#myUL li a:hover:not(.header) {
     background-color: #eee;
-  }
+}
 
-  .search_result {
-      position: absolute;
-      top: 58px;
-      left: inherit;
-      z-index: 1;
-      width: 466px;
-      opacity: 0.9;
-  }
+.search_result {
+    position: absolute;
+    top: 58px;
+    left: inherit;
+    z-index: 1;
+    width: 466px;
+    opacity: 0.9;
+}

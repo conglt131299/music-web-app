@@ -9,66 +9,66 @@ and open the template in the editor.
 */
 
 body {
-	background-image: url('../img/bg_top.jpg');
-	background-size: cover;
+    background-image: url('../img/bg_top.jpg');
+    background-size: cover;
 }
 
 .signin {
-	width: 782px;
-	height: 465px;
-	background-color: white;
-	border-radius: 10px;
-	margin: auto;
-	margin-top: 100px;
-	text-align: center;
+    width: 782px;
+    height: 465px;
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
 }
 
 .signin h3 {
-	padding-top: 30px;
+    padding-top: 30px;
 }
 
 .signin form {
-	margin-top: 20px;
-	border-right: 2px solid grey;
-	height: 210px;
+    margin-top: 20px;
+    border-right: 2px solid grey;
+    height: 210px;
 }
 
 .signin input[type="text"] {
-	margin-top: 25px;
-	width: 312px;
-	height: 43px;
-	border-radius: 10px;
-	border: 1px solid grey;
-	margin: auto;
+    margin-top: 25px;
+    width: 312px;
+    height: 43px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    margin: auto;
 }
 
 .signin input[type="password"] {
-	margin-top: 20px;
-	width: 312px;
-	height: 43px;
-	border-radius: 10px;
-	border: 1px solid grey;
-	margin: auto;
+    margin-top: 20px;
+    width: 312px;
+    height: 43px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    margin: auto;
 }
 
 .signin input[type="submit"] {
-	margin-top: 20px;
-	width: 312px;
-	height: 43px;
-	border-radius: 10px;
-	border: 1px solid green;
-	background-color: green;
-	color: white;
-	font-weight: bold;
-	cursor: pointer;
-	margin: auto;
+    margin-top: 20px;
+    width: 312px;
+    height: 43px;
+    border-radius: 10px;
+    border: 1px solid green;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin: auto;
 }
 
 .signin input[type="checkbox"] {
-        margin-top: 15px;
-        margin-left: 180px;
+    margin-top: 15px;
+    margin-left: 180px;
 }
 
 .signin input {
-	outline: none;
+    outline: none;
 }

@@ -22,17 +22,18 @@
             ArtistDAO artistDAO = new ArtistDAO();
             String pageNumber = request.getParameter("pageNumber");
 
-            if(pageNumber == null || pageNumber.equals(""))
-                pageNumber="1";
+            if (pageNumber == null || pageNumber.equals("")) {
+                pageNumber = "1";
+            }
             int pageindex = Integer.parseInt(pageNumber);
             int pagesize = 10;
 
             int totalRows = songDAO.count();
-            int totalpage = (totalRows+pagesize-1 )/pagesize;
+            int totalpage = (totalRows + pagesize - 1) / pagesize;
             request.setAttribute("pageindex", pageindex);
             request.setAttribute("pagesize", pagesize);
             request.setAttribute("totalpage", totalpage);
-            
+
             ArrayList<Artist> artists = artistDAO.getAllArtist();
             ArrayList<Song> songs = songDAO.getSongByRank(pagesize, pageindex);
             request.setAttribute("songs", songs);

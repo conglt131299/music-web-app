@@ -21,7 +21,7 @@
                 if ($("#myInput").val() === "") {
                     for (i = 0; i < li.length; i++) {
                         li[i].style.display = "none";
-                    }      
+                    }
                 } else {
                     for (i = 0; i < li.length; i++) {
                         a = li[i].getElementsByTagName("a")[0];
@@ -31,7 +31,7 @@
                         } else {
                             li[i].style.display = "none";
                         }
-                    }      
+                    }
                 }
             }
         </script>
@@ -43,10 +43,10 @@
                     <c:forEach items="${sessionScope.artists}" var="j" varStatus="loop">
                         <c:if test="${i.artist_id eq j.id}">
                             <li><a href="/MusicWeb/audio?id=${i.id}&artist_id=${i.artist_id}">${i.name}-${j.name}</a></li>
-                        </c:if>
+                            </c:if>
+                        </c:forEach>
                     </c:forEach>
-                </c:forEach>
-          </ul>
+            </ul>
         </div>
     </body>
 </html>

@@ -10,156 +10,156 @@ and open the template in the editor.
 
 /*Container fluid*/
 .container-fluid {
-	padding: 0;
-	margin: 0;
+    padding: 0;
+    margin: 0;
 }
 
 /*Bai hat moi*/
 .songs {
-	width: 100%;
-	height: 740px;
-	color: white;
-	background-color: black;
-	margin-top: 10px;
+    width: 100%;
+    height: 740px;
+    color: white;
+    background-color: black;
+    margin-top: 10px;
 }
 
 .songs h1 {
-	text-align: center;
-	padding-top: 30px;
+    text-align: center;
+    padding-top: 30px;
 }
 
 .list_song {
-	width: 70%;
-	margin: auto;
-	margin-top: 60px;
+    width: 70%;
+    margin: auto;
+    margin-top: 60px;
 }
 
 .list_song .col-6 {
-	float: left;
-	width: 50%;
+    float: left;
+    width: 50%;
 }
 
 .list_song .col-6 {
-	box-sizing:border-box;
-	padding: 0px 10px 0px 10px;
+    box-sizing:border-box;
+    padding: 0px 10px 0px 10px;
 }
 
 .list_song:after {
-	content: "";
-	display: table;
-	clear: both;
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .song {
-	display: block;
-	height: 100px;
-	margin-bottom: 10px;
-	border-bottom: 1px solid grey;
+    display: block;
+    height: 100px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid grey;
 }
 
 .song div {
-	float: left;
+    float: left;
 }
 
 .song .img {
-	width: 20%;
+    width: 20%;
 }
 
 .song .content {
-	width: 80%;
-	height: 94px;
+    width: 80%;
+    height: 94px;
 }
 
 .song a {
-	text-decoration: none;
-	color: white;
+    text-decoration: none;
+    color: white;
 }
 
 /*Nghe si noi tieng*/
 .famous {
-	width: 100%;
-	height: 500px;
-	margin-top: 15px;
+    width: 100%;
+    height: 500px;
+    margin-top: 15px;
 }
 
 .famous h1 {
-	text-align: center;
-	padding-top: 30px;
+    text-align: center;
+    padding-top: 30px;
 }
 
 .famous .content {
-	width: 90%;
-	margin: auto;
-	margin-top: 60px;
+    width: 90%;
+    margin: auto;
+    margin-top: 60px;
 }
 
 .famous .content .col-2 {
-	float: left;
-	width: 16.66%;
-	text-align: center;
+    float: left;
+    width: 16.66%;
+    text-align: center;
 }
 
 .content:after {
-	content: "";
-	clear: both;
-	display: table;
+    content: "";
+    clear: both;
+    display: table;
 }
 
 .famous .col-2 img {
-	display: block;
-	border-radius: 50%;
-	margin: auto;
-	transition: transform .6s;
+    display: block;
+    border-radius: 50%;
+    margin: auto;
+    transition: transform .6s;
 }
 
 .famous .col-2 img:hover {
-	cursor: pointer;
+    cursor: pointer;
 }
 
 .famous .col-2 h6 {
-	margin-top: 25px;
-	font-size: 20px;
+    margin-top: 25px;
+    font-size: 20px;
 }
 
 .famous .col-2 h6:hover {
-	cursor: pointer;
+    cursor: pointer;
 }
 
 .famous .col-2 .zoom:hover {
-	transform: scale(1.3);
+    transform: scale(1.3);
 }
 
 /*MV HOT*/
 .mvhot {
-	margin-top: 10px;
-	text-align: center;
-	background-color: #454545;
+    margin-top: 10px;
+    text-align: center;
+    background-color: #454545;
 }
 
 .mvhot img {
-	transition: transform .6s;
+    transition: transform .6s;
 }
 
 .mvhot img:hover {
-	transform: scale(1.06);
+    transform: scale(1.06);
 }
 
 .mvhot .row {
-	width: 1170px;
-	margin: auto;
+    width: 1170px;
+    margin: auto;
 }
 
 .mvhot h1 {
-	padding-top: 30px;
-	margin-bottom: 60px;
+    padding-top: 30px;
+    margin-bottom: 60px;
 }
 
 .mvhot h6 {
-	margin-top: 20px;
+    margin-top: 20px;
 }
 
 .mvhot a {
-	text-decoration: none;
-	color: white;
+    text-decoration: none;
+    color: white;
 }
 
